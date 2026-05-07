@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 st.title("🌱 GreenIT Dashboard")
-st.caption("Empreinte carbone du numérique par pays — projet portfolio Wavestone SEF")
+st.caption("Empreinte carbone du numérique par pays — projet portfolio ")
 
 # --- Chargement ---
 @st.cache_data
