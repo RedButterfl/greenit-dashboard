@@ -122,4 +122,4 @@ l'empreinte numérique. Ce dashboard outille la phase de diagnostic.
 interview des équipes IT, benchmark sectoriel, puis feuille de route d'amélioration priorisée.
     """)
 
-st.caption("Projet portfolio — Steves D. | Stack : Python 3.11 · Streamlit · Plotly · GitHub Actions · AWS EC2")
+st.caption("Projet personnel | Elsa MOUKOUDI · INSA Lyon | Stack : Python 3.14.4 · Streamlit · Plotly · GitHub Actions · AWS EC2")
