@@ -1,6 +1,6 @@
 # 🌱 GreenIT Dashboard
 
-> **Projet portfolio** — Empreinte carbone du numérique · Python · Streamlit · GitHub Actions · AWS
+> **Projet portfolio**  Empreinte carbone du numérique · Python · Streamlit · GitHub Actions · AWS
 
 ---
 
@@ -8,7 +8,7 @@
 
 La directive CSRD (2024) impose aux grandes entreprises un reporting ESG couvrant l'impact environnemental
 du numérique. Ce dashboard prototype la phase de **diagnostic d'empreinte carbone IT** telle qu'un
-consultant Wavestone SEF l'outillerait en mission.
+consultant CTO l'outillerait en mission.
 
 **Enjeux adressés :**
 - Visualiser les émissions CO₂ IT par pays et par période
@@ -35,7 +35,7 @@ greenit-dashboard/
 └── requirements.txt
 ```
 
-**Stack :** Python 3.11 · Streamlit · Plotly · Pandas · pytest · GitHub Actions · AWS EC2 (Free Tier)
+**Stack :** Python 3.14.4 · Streamlit · Plotly · Pandas · pytest · GitHub Actions · AWS EC2 (Free Tier)
 
 ---
 
@@ -65,8 +65,8 @@ pytest tests/ -v
 ## Pipeline CI/CD
 
 Chaque `push` sur `main` déclenche automatiquement :
-1. **Test** — `pytest` sur GitHub Actions
-2. **Deploy** — SSH vers EC2, redémarrage de l'app Streamlit
+1. **Test**  `pytest` sur GitHub Actions
+2. **Deploy**  SSH vers EC2, redémarrage de l'app Streamlit
 
 Secrets nécessaires dans GitHub : `EC2_HOST`, `EC2_SSH_KEY`
 
@@ -103,4 +103,4 @@ Secrets nécessaires dans GitHub : `EC2_HOST`, `EC2_SSH_KEY`
 
 ---
 
-*Auteur : Steves D. | École d'ingénieurs | Candidature stage Wavestone SEF*
+*Auteur : Elsa MOUKOUDI. | INSA Lyon | Projet personnel*
